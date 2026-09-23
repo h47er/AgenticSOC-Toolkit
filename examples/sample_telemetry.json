@@ -1,0 +1,25 @@
+[
+  {
+    "event_id": "EVT-001",
+    "timestamp": "2026-09-23T10:00:00Z",
+    "hostname": "HR-WS04",
+    "username": "a.smith",
+    "category": "PROCESS_EXECUTION",
+    "process_name": "powershell.exe",
+    "process_id": 4812,
+    "parent_process_name": "cmd.exe",
+    "command_line": "powershell.exe -NoP -NonI -W Hidden -enc SQBFAFgA",
+    "file_hash": "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069"
+  },
+  {
+    "event_id": "EVT-002",
+    "timestamp": "2026-09-23T10:00:15Z",
+    "hostname": "HR-WS04",
+    "username": "a.smith",
+    "category": "NETWORK_CONNECTION",
+    "process_name": "powershell.exe",
+    "process_id": 4812,
+    "destination_ip": "185.220.101.5",
+    "destination_port": 8443
+  }
+]
